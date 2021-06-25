@@ -1,0 +1,52 @@
+{
+  "name": "gulp-everypay",
+  "version": "1.0.0",
+  "description": "everypay gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackMalakhov/gulpEverypay.git"
+  },
+  "keywords": [
+    "gulp",
+    "pug",
+    "scss",
+    "js"
+  ],
+  "author": "jack malakhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackMalakhov/gulpEverypay/issues"
+  },
+  "homepage": "https://github.com/JackMalakhov/gulpEverypay#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "babel": "^6.23.0",
+    "browser-sync": "^2.27.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-npm-dist": "^1.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-pug-linter": "^1.5.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-svgstore": "^8.0.0",
+    "gulp-terser": "^2.0.1"
+  }
+}
